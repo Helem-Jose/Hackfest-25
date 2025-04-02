@@ -10,8 +10,8 @@ CORS(app)  # Enable CORS for all routes
 
 # Gmail IMAP Credentials
 IMAP_SERVER = "imap.gmail.com"
-EMAIL_ACCOUNT = "24je0116@iitism.ac.in"
-EMAIL_PASSWORD = "ylnm ydto pvts fcws"
+EMAIL_ACCOUNT = ""
+EMAIL_PASSWORD = ""
 
 def fetch_threads():
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
